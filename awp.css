@@ -1,0 +1,94 @@
+
+.logotext {
+ font-family: "Arial";
+ font-weight: bold;
+ font-size: 200%;
+}
+
+.headertext {
+ font-family: "Arial";
+ font-weight: bold;
+ font-size: 100%;
+}
+
+.titletext {
+ font-family: "Arial";
+ font-weight: bold;
+ font-size: 150%;
+}
+
+.normaltext {
+ font-family: "Arial";
+ font-size: 100%;
+}
+
+.fullwidth {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.halfwidth {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.quarterwidth {
+  width: 25% !important;
+  height: auto !important;
+}
+
+.smallsize {
+  width: 150px !important;
+  height: auto !important;
+}
+
+.largesize {
+  width: 350px !important;
+  height: auto !important;
+}
+
+
+a {
+  text-decoration: none;
+  color: black
+}
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+
+
+#photos {
+  line-height: 1;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   5px;
+  -moz-column-count:    2;
+  -moz-column-gap:      5px;
+  column-count:         2;
+  column-gap:           10px;  
+
+  
+  font-family: "Arial";
+  font-size: 150%;
+  text-align: center;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+@media (max-width: 600px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
